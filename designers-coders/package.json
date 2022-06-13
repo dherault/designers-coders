@@ -2,9 +2,11 @@
   "name": "designers-coders",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run clean:build && nodemon --watch src --ext ts,tsx,snap --exec \"npm run build\"",
+    "build": "npx tsc --declaration",
+    "prepublishOnly": "npm run build"
   },
   "author": "",
   "license": "MIT",
