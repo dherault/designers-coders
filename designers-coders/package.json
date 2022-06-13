@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "npm run clean:build && nodemon --watch src --ext ts,tsx,snap --exec \"npm run build\"",
+    "clean:build": "rimraf dist",
     "build": "npx tsc --declaration",
     "prepublishOnly": "npm run build"
   },
@@ -15,6 +16,8 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.42",
-    "@types/react-native": "^0.67.8"
+    "@types/react-native": "^0.67.8",
+    "nodemon": "^2.0.16",
+    "rimraf": "^3.0.2"
   }
 }
