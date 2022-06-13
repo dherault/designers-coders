@@ -1,0 +1,18 @@
+{
+  "name": "designers-coders",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.68.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@types/react-native": "^0.67.8"
+  }
+}
