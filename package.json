@@ -1,0 +1,31 @@
+{
+  "name": "designers-coders",
+  "version": "0.0.0",
+  "description": "A yescode tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/designers-coders.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dherault/designers-coders/issues"
+  },
+  "homepage": "https://github.com/dherault/designers-coders#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-dherault": "^1.7.3",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.3"
+  }
+}
