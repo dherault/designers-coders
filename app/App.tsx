@@ -1,13 +1,12 @@
-import { StatusBar } from 'expo-status-bar'
+// import { StatusBar } from 'expo-status-bar'
 import { StyleSheet } from 'react-native'
 import { DesignersCoders, Text, View } from 'designers-coders'
 
-export default function App() {
+function App() {
   return (
     <DesignersCoders>
       <View style={styles.container}>
-        <StatusBar />
-        <Text>Open up App.tsx to start working on your app!</Text>
+        <Text>Designers Coders!</Text>
         <View style={styles.row}>
           <Text style={styles.caption}>1</Text>
           <Text style={styles.caption}>2</Text>
@@ -38,3 +37,5 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
 })
+
+export default App
