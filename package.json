@@ -4,7 +4,8 @@
   "description": "A yescode tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:dc": "(cd designers-coders && npm link && npm run dev)",
+    "dev:app": "(cd app && npm link designers-coders && npm run start)"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@ import HierarchyContext from '../../contexts/HierarchyContext'
 
 function DesignersCoders({ children }: any) {
   const [hierarchy, setHierarchy] = useState({})
-  const hierarchyValue = useMemo(() => [hierarchy, setHierarchy, 'DesignersCoders'], [hierarchy])
+  const hierarchyValue = useMemo(() => [hierarchy, setHierarchy, 'DesignersCoders', 0], [hierarchy])
 
   return (
     <HierarchyContext.Provider value={hierarchyValue}>
